@@ -19,3 +19,4 @@ Run the download by double-clicking the DownloadFiles.py module.
 
 The application will create the necessary folders and download the files.
 
+I appreciate your opinions and suggestions, any concerns I will be glad to attend
