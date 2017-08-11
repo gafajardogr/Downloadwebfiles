@@ -8,7 +8,7 @@ From a web address, the module recursively traverses the folders and downloads t
 example
 http://www.archibal3.com/free/
 
-abra el archivo downloadfiles.py edite la linea 37, en la variable webaddr, coloque la direccion web que usted haya elegido.
+Open the file downloadfiles.py edit line 37, in the variable webaddr, place the web address that you have chosen.
 
 It requires installing python 3.4 before, and through the command pip utility, install the libraries like this:
 
