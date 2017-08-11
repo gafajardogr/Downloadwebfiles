@@ -6,7 +6,7 @@ This module allows to download all the files recursively from a web address,
 From a web address, the module recursively traverses the folders and downloads the files it contains, it is required that the files on the web have permission to download
 
 example
-http://www.federaljack.com/ebooks/
+http://www.archibal3.com/free/
 
 abra el archivo downloadfiles.py edite la linea 37, en la variable webaddr, coloque la direccion web que usted haya elegido.
 
