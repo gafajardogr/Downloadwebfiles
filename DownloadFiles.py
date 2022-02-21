@@ -27,7 +27,8 @@ def MakePath(webaddr):
 
 
 def DownloadFolder(webaddr):
-    Logger.info("Downloading "+webaddr)
+    if verbose:
+        Logger.info("Downloading "+webaddr)
     spath = MakePath(webaddr)
     Html = urlopen(webaddr)
     print (Html)
@@ -41,7 +42,8 @@ def DownloadFolder(webaddr):
             with urllib.request.urlopen(webaddr + '/' + file) as response, open(spath+'\\'+links.contents[0], 'wb') as out_file:
                 shutil.copyfileobj(response, out_file)
         else:
-            Logger.error(webaddr+" not a file! (You can safely ignore this)")
+            if verbose:
+                Logger.error(webaddr+" not a file! (You can safely ignore this)")
             
 
 def debug():
